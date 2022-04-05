@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-
+    
+<head>
+    <meta charset='utf-8'>
+    <style>
+    table, th, tr, td {
+        border: solid 1px black;
+        border-collapse: collapse;
+        padding: 8px;
+    }
+    </style>
     </head>
     <body>
-        <h3>
-            hello
-        </h3>
+    <h3>시간표</h3>
+    <table>
+        <tr>
+            <th> </th> <th> 월</th> <th> 화 </th> <th> 수 </th>
+            <th> 목 </th> <th> 금 </th> <th> 토 </th>
+        </tr>
+        <tr>
+            <td>1교시</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>마케팅의 이해</td>
+        </tr>
+        <tr>
+            <td>2교시</td> <td></td> <td></td> <td></td> <td>디지털콘텐츠비즈니스개론</td> <td></td> <td>웹프로그래밍</td>
+        </tr>    
+        <tr>
+            <td>3교시</td> <td></td> <td rowspan="2">북한의역사의이해</td> <td>대학영어회화2</td> <td rowspan="2">마케팅의이해</td> <td></td> <td></td>
+        </tr>
+        <tr>
+            <td>4교시</td> <td></td>  <td></td> <td></td> <td></td> 
+        </tr>
+        <tr>
+            <td>5교시</td> <td></td> <td rowspan="2">웹프로그래밍</td> <td rowspan="2">예술과 AI</td> <td rowspan="2">디지털콘텐츠비즈니스개론</td> <td rowspan="3">AI시대의인간과시회(팀티칭)</td> <td></td>
+        </tr>
+        <tr>
+            <td>6교시</td> <td></td>   <td></td> 
+        </tr>
+        <tr>
+            <td>7교시</td> <td></td> <td></td>  <td></td> <td></td> <td>대학영어회화2</td>
+        </tr>
+    </table>
     </body>
 </html>
