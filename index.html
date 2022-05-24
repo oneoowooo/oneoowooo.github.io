@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <title>백우영</title>
-    <style>
+<meta charset='utf-8'>
+<title>백우영</title>
+<style>
+        body {text-align: center;}
+        * {padding: 0px; margin: 0px;}
+        header, nav, section, aside, footer {
+          border: solid 2px black;}
+        header {
+          width:  1200px; height: 100px;
+          margin-top: 10px; margin-left: 10px;}
+        nav {
+          width:  1200px; height: 70px;
+          margin-top: 10px; margin-left: 10px;}
+        section {
+          width:  900px; height: 455px;
+          margin-top: 10px; margin-left: 10px;
+          float: left;}
+        aside {
+          width:  280px; height: 455px;
+          margin-left: 20px; margin-top: 10px;
+          float: left;}
+        footer {
+          width:  1200px; height: 100px;
+          margin-top: 10px; margin-left: 10px;}
+        
+        
+        .clear {clear: both;}
+        
     table, th, tr, td {
-        border: solid 1px black;
-        border-collapse: collapse;
-        text-align: center;;
-        padding: 8px;
-    }
+                border: solid 1px black;
+                border-collapse: collapse;
+                text-align: center;;
+                padding: 8px;}
     table{width: 900px;}
     table th{width: 1000px;}
-    a:link {text-decoration: none; color: greenyellow}
-    a:visited {text-decoration: none; color: greenyellow;}
-    a:hover { text-decoration: none; color: red}
     .red {background-color: none; background-color: rgb(255, 222, 222);}
     .red:hover{background-color: none; background-color: rgb(225, 222, 222);}
     .org {background-color: none; background-color: rgb(255, 240, 222);}
@@ -29,90 +50,154 @@
     .nam:hover{background-color: none; background-color: rgb(225, 222, 222);}
     .pul {background-color: none; background-color: rgb(255, 222, 255);}
     .pul:hover{background-color: none; background-color: rgb(225, 222, 222);}
+    
+    a:link {text-decoration: none; color: black;}
+    a:visited {text-decoration: none; color: black;}   
+    
+    h1 {text-align: center; margin: 30px 0 30px 0;}
 
-
-    </style>
+    .nav {float: left; list-style-type: none; margin-left: 10px;}
+    .pic {list-style: none;}
+        
+    #address {float: left; margin: 10px 0 40px 20px; }
+    #customer {float: right; margin: 70px 10px 0 180px;}    
+</style>
 </head>
 <body>
-    <form action="join.html">
-    <h3> 20210330 백우영 시간표 </h3>
-    <table>
-        <tr>
-            <th> </th> 
-            <th> 월</th> 
-            <th> 화 </th> 
-            <th> 수 </th>
-            <th> 목 </th> 
-            <th> 금 </th> 
-            <th> 토 </th>
-        </tr>
-        <tr>
-            <td>1교시<br>09:30~10:20</td> 
-            <td></td> 
-            <td></td> 
-            <td></td> 
-            <td></td> 
-            <td></td> 
-            <td class="pul">마케팅의 이해</td>
-        </tr>
-        <tr>
-            <td>2교시<br>10:30~11:20</td> 
-            <td></td> 
-            <td></td> 
-            <td></td> 
-            <td class="blue">디지털콘텐츠<br>비즈니스개론</td> 
-            <td></td> 
-            <td class="org">웹프로그래밍</td>
-        </tr>    
-        <tr>
-            <td>3교시<br>11:30~12:20</td> 
-            <td></td> 
-            <td rowspan="2" class="red">북한역사의이해</td> 
-            <td class="yell">대학영어회화2</td> 
-            <td rowspan="2" class="pul">마케팅의이해</td> 
-            <td></td> 
-            <td></td>
-        </tr>
-        <tr>
-            <td>4교시<br>12:30~13:20</td> 
-            <td></td>  
-            <td></td> 
-            <td></td> 
-            <td></td> 
-        </tr>
-        <tr>
-            <td>5교시<br>13:30~14:20</td> 
-            <td></td> 
-            <td rowspan="2" class="org">웹프로그래밍</td> 
-            <td rowspan="2" class="grn">예술과 AI</td> 
-            <td rowspan="2" class="blue">디지털콘텐츠<br>비즈니스개론</td> 
-            <td rowspan="3" class="nam">AI시대의<br>인간과사회</td> 
-            <td></td>
-        </tr>
-        <tr>
-            <td>6교시<br>14:30~15:20</td> 
-            <td></td>   
-            <td></td> 
-        </tr>
-        <tr>
-            <td>7교시<br>15:30~16:20</td> 
-            <td></td> 
-            <td></td>  
-            <td></td> 
-            <td></td> 
-            <td class="yell">대학영어회화2</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>
-        <a href="join.html">회원가입</a> <br>
-        <a href="rubato.html">루바토 펜션 안내</a> <br>
-        <a href="college.html">제 1회 호서 국제 기타 페스티벌</a> <br>
-        <a href="night.html">호서 야간 개장</a> <br>
-        <a href="sale.html">세일안내장</a> <br>
-        <a href="may.html">월간 일정표</a> <br>
-        <a href="shop.html">쇼핑몰</a>
-    </h2>
-</form>
+        
+        
+    <header>
+          <div id="logo">
+             <a href="index.html"> <img src="img/head.png"></a>
+          </div>
+    </header>
+        
+        
+    <nav>
+        <div>
+            <ul>
+                <li class="nav">
+                    <a href="join.html"><img src="img/001.png"></a>
+                </li>
+                <li class="nav">
+                    <a href="rubato.html"><img src="img/002.png"></a>
+                </li>
+                <li class="nav">
+                    <a href="college.html"><img src="img/003.png"></a>
+                </li>
+                <li class="nav">
+                    <a href="night.html"><img src="img/004.png"></a>
+                </li>
+                <li class="nav">
+                    <a href="sale.html"><img src="img/005.png"></a>
+                </li>
+                <li class="nav">
+                    <a href="may.html"><img src="img/006.png"></a>
+                </li>
+                <li class="nav">
+                    <a href="shop.html"><img src="img/007.png"></a>
+                </li>
+            </ul>
+         </div>
+     </nav>
+        
+    <section>
+        <div>
+            <table>
+                <tr>
+                    <th> </th>
+                    <th> 월</th>
+                    <th> 화 </th>
+                    <th> 수 </th>
+                    <th> 목 </th>
+                    <th> 금 </th>
+                    <th> 토 </th>
+                </tr>
+                <tr>
+                    <td>1교시<br>09:30~10:20</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="pul">마케팅의 이해</td>
+                </tr>
+                <tr>
+                    <td>2교시<br>10:30~11:20</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="blue">디지털콘텐츠<br>비즈니스개론</td>
+                    <td></td>
+                    <td class="org">웹프로그래밍</td>
+                </tr>    
+                <tr>
+                    <td>3교시<br>11:30~12:20</td>
+                    <td></td>
+                    <td rowspan="2" class="red">북한역사의<br>이해</td>
+                    <td class="yell">대학영어회화2</td>
+                    <td rowspan="2" class="pul">마케팅의이해</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4교시<br>12:30~13:20</td>
+                    <td></td>  
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>5교시<br>13:30~14:20</td>
+                    <td></td>
+                    <td rowspan="2" class="org">웹프로그래밍</td>
+                    <td rowspan="2" class="grn">예술과 AI</td>
+                    <td rowspan="2" class="blue">디지털콘텐츠<br>비즈니스개론</td>
+                    <td rowspan="3" class="nam">AI시대의<br>인간과사회</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>6교시<br>14:30~15:20</td>
+                    <td></td>  
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>7교시<br>15:30~16:20</td>
+                    <td></td>
+                    <td></td>  
+                    <td></td>
+                    <td></td>
+                    <td class="yell">대학영어회화2</td>
+                </tr>
+            </table>
+        </div>
+        
+    </section>
+    <aside>
+        <div>
+            <ul>
+                <li class="pic">
+                    <a href="http://www.hoseo.ac.kr/Home/Main.mbz"> <img src="img/unv.jpeg" width="280px" >
+                </li>
+                <li class="pic">
+                    <img src="img/white.jpeg" width="280px">
+                </li>
+            </ul>
+           
+            </a>
+        
+         </div>
+           
+        
+    </aside>
+    <div class='clear'></div>
+    <footer>
+        <div id="address">
+         호서대학교 디지털기술경영학과 20210330 백우영     
+        </div>
+        <div id="customer">
+        <a href="profile.html">@oneoowooo</a> 
+        </div>
+    </footer>
 </body>
 </html>
